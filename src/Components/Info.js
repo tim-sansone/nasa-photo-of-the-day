@@ -1,11 +1,11 @@
 import React from "react";
 
-function Info({ data }){
+function Info({ copyright, explanation }){
 
 return (
     <>
-        <p><strong>Image Credit & Copyright:</strong> {data.copyright}</p>
-        <p><strong>Explanation:</strong> {data.explanation}</p>
+        <p><strong>Image Credit & Copyright:</strong> {copyright}</p>
+        <p><strong>Explanation:</strong> {explanation}</p>
     </>
 )
 

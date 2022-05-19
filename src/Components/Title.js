@@ -1,11 +1,11 @@
 import React from "react";
 
-function Title({ data }){
+function Title({ date, title }){
 
 return (
     <>
-        <h2>{data.date}</h2>
-        <h3>{data.title}</h3>
+        <h2>{date}</h2>
+        <h3>{title}</h3>
     </>
 )
 
